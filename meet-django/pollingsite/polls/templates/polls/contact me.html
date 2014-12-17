@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-color:lightgrey">
+
+<a href="/math/about">back to home page</a>
+<h1 align="center">Feel free to contact me</h1>
+<div align="center"> 
+	<form action = "HelloWorld.html" method = "POST">
+	<h4>Subject:</h4>
+	<input type="text" name="subject">
+	<form action = "HelloWorld.html" method = "POST">
+	<h4>Phone number:</h4>
+	<input type="text" name="subject">
+	<h4>Email:</h4>
+	<input type="text" name="email">
+	<h4>Content:</h4>
+	<textarea name="content"></textarea>
+	<br>
+	
+	<br>
+	<br>
+	<input type= "submit"> 
+	</form>
+		
+		<img src="{% static 'polls/imgs/phone.gif' %}" width="230" height="230">
+		
+	</div>
+<div>	
+</html>

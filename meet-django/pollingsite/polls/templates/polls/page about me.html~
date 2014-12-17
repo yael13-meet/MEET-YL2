@@ -1,0 +1,36 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+<title>
+Yael Perez
+</title>
+
+</head>
+
+<body style="background-color:lightgrey">
+
+<a href="/contact">Contact me</a>
+
+<div>
+<h2 style="font-family:verdana"> name: Yael Perez </h2>
+
+<h3 align="left"> About me: </h3>
+<h5> I study at school Physics, Compute science and Robotics.</h5>
+<h5> I am a meet student, and I am part of the Mashatzim - the manager of the valonteer commitment.</h5>
+<h3> My hobbies </h5>
+<ul>
+<li>dancing</li>
+<li>swimming</li>
+<li>running</li>
+</ul>
+<br>
+
+<img src="{% static 'polls/imgs/yael.JPG' %}" alt="me. credit to shir" width="400" height="300">
+
+<h5> This is my facebook page:</h5>
+<a href="https://www.facebook.com/yael.perez.963" >CLick here to see my facebook page <a/>
+</body>
+
+</div>
+</html>
